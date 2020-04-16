@@ -1,0 +1,22 @@
+/* Narbar */
+
+.hnp-navbar {
+    height: 100px;
+    width: 100%;
+}
+
+.hnp-navbar-logo {
+    width: 160px;
+    height: 65px;
+}
+
+.hnp-navbar-menu-contactButton {
+    height: 100px;
+    width: 160px;
+    background-color: #262626;
+    color: white
+}
+
+.hnp-navbar-menu-telephone {
+    width: 17px;
+}
