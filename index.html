@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/bootstrap.min.js">
-    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothScroll.js"></script>
     <title>Website nội thất</title>
 </head>
 
@@ -16,46 +16,57 @@
     <div class="row hnp-navbar">
         <!-- LOGO -->
         <div class="col-sm-2 hnp-navbar-logo d-flex align-items-center justify-content-center">
-            <img src="images/logo-black.svg">
+            <img src="images/logo-black.svg" />
         </div>
         <!-- MENU -->
-        <nav class="navbar navbar-expand-sm col-sm-9 justify-content-end">
+        <nav class="navbar navbar-expand-sm col-sm-8 justify-content-end">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Link 1</a>
+                <li class="nav-item hnp-header-li">
+                    <a class="nav-link d-flex align-items-center justify-content-center hnp-header-nav-item" href="#carousel">施工事例
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Link 2</a>
+                <li class="nav-item hnp-header-li">
+                    <a class="nav-link d-flex align-items-center justify-content-center hnp-header-nav-item" href="#">コラム
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Link 3</a>
+                <li class="nav-item hnp-header-li">
+                    <a class="nav-link d-flex align-items-center justify-content-center hnp-header-nav-item" href="#">
+                        私たちについて
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Link 4</a>
+                <li class="nav-item hnp-header-li">
+                    <a class="nav-link d-flex align-items-center justify-content-center hnp-header-nav-item" href="#">よくある質問
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">Link 5</a>
+                <li class="nav-item hnp-header-li">
+                    <a class="nav-link d-flex align-items-center justify-content-center hnp-header-nav-item" href="#">ワークフロー</a>
                 </li>
             </ul>
         </nav>
         <!-- CONTACT BUTTON -->
-        <button class=" col-sm-1 btn-dark ">
-            <img class="hnp-navbar-menu-telephone" src="images/icons/telephone.svg ">
-            <label class="hnp-navbar-menu-number ">034.976.0306</label>
+        <button class="col-sm-2 btn-dark hnp-navbar-menu-button">
+            <img class="hnp-navbar-menu-telephone" src="images/icons/telephone.svg " />
+            <label class="hnp-navbar-menu-number">034.976.0306</label>
         </button>
     </div>
     <!-- END MENU -->
 
     <!-- START BANNER -->
-    <div class="hnp-banner d-flex align-items-center justify-content-center">
-        <p class="text-light hnp-banner-title">WE MAKE THE BEST</p>
+    <div class="hnp-banner d-flex flex-column align-items-center justify-content-center">
+        <label class="text-light hnp-banner-title">WE MAKE THE BEST</label>
+        <div class="text-center">
+            <h3 class="text-light">限られた予算の中でもデザインを諦めない</h3>
+            <span class="text-light">内装工事・店舗デザイン・設計はBALANCE DESIGNにご相談ください</span>
+        </div>
     </div>
     <!-- END BANNER -->
 
     <!-- START CAROUSEL -->
-    <div>
-        <label>Carousel</label>
-    </div>
+    <section id="carousel">
+        <div class="container">
+            <label>Carousel</label>
+        </div>
+    </section>
     <!-- END CAROUSEL -->
 
     <!-- START TABS -->
@@ -66,11 +77,74 @@
 
     <!-- START RECOMMENDED -->
     <div>
-        <label>RECOMMENDED</label>
+        <label>RECOMMENDED 2</label>
     </div>
     <!-- END RECOMMENDED -->
+    <!-- START ABOUT -->
+    <section id="about" class="row">
+        <div class="col-sm-6">
+            <img src="images/about.jpg">
+        </div>
+        <div class="col-sm-6 d-flex flex-column justify-content-around">
+            <h3>ABOUT</h3>
+            <h5 class="">Bạn đã bao giờ nghĩ mình sẽ sống trong một không gian nghệ thuật? ngôi nhà hay căn phòng của bạn là một gian phòng triển lãm, là một gallery thu nhỏ và chính đồ vật trong nhà bạn là những tác phẩm nghệ thuật ?</h5>
+            <h5>BALANCE DESIGN</h5>
+        </div>
+
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- START FOOTER -->
+    <footer id="footer" class="bg-dark">
+        <div class="container justify-content-center">
+            <div class="row d-flex align-items-center justify-content-center  hnp-footer-top">
+                <div class="col-sm-6 align-items-center justify-content-center">
+                    <div class="hnp-navbar-logo">
+                        <img width="" src="images/logo-black-light.svg">
+                    </div>
+                </div>
+                <div class="col-sm-6 align-items-center justify-content-center">
+                    <nav class="navbar navbar-expand-sm justify-content-end">
+                        <ul class="navbar-nav footer-nav">
+                            <li class="nav-item hnp-footer-li">
+                                <a class="nav-link d-flex align-items-center justify-content-center  hnp-footer-nav-item" href="#carousel">施工事例
+                                </a>
+                            </li>
+                            <li class="nav-item hnp-footer-li">
+                                <a class="nav-link d-flex align-items-center justify-content-center  hnp-footer-nav-item" href="#">コラム
+                                </a>
+                            </li>
+                            <li class="nav-item hnp-footer-li">
+                                <a class="nav-link d-flex align-items-center justify-content-center  hnp-footer-nav-item" href="#">
+                                    私たちについて
+                                </a>
+                            </li>
+                            <li class="nav-item hnp-footer-li">
+                                <a class="nav-link d-flex align-items-center justify-content-center  hnp-footer-nav-item" href="#">よくある質問
+                                </a>
+                            </li>
+                            <li class="nav-item hnp-footer-li">
+                                <a class="nav-link d-flex align-items-center justify-content-center  hnp-footer-nav-item" href="#">ワークフロー</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="flex-column">
+                <label class="text-light">FOLOW US</label>
+                <img src="images/icons/icon-fb.svg" />
+                <img src="images/icons/icon-instagram.svg" />
+
+            </div>
+            <button class="btn btn-light">LARGO.STUDIO</button>
+        </div>
 
 
+        <div class="container">
+            <p class="text-light">Nội thất</p>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
 </body>
 
 </html>
