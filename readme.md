@@ -25,6 +25,17 @@
         });
     </script>
   ```
+  Thứ tự nhúng script bắt buộc
+  ```
+    <!--1. jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!--2. smooth scroll -->
+    <script src="js/smoothScroll.js"></script>
+    <!--3. popper -->
+    <script src="js/popper.min.js"></script>
+    <!--4. bootstrap -->
+    <script src="js/bootstrap.js"></script>
+  ```
   # II. Cấu trúc và bố cục trang web:
   ## Trang web Largo gồm 3 phần chính:
   > 1. Header
