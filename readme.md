@@ -6,8 +6,12 @@
 
 ## 2. Cài đặt (Link):
 ```
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 ```
 ## 3. Các script đã sử dụng
   ### Script Jquery (Jquery.min.js): dùng để hỗ trợ các hiệu ứng lướt
