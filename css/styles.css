@@ -7,7 +7,6 @@ html {
 }
 
 .hnp-list-item {
-    width: 250px;
     height: 300px;
 }
 
@@ -31,23 +30,6 @@ html {
 
 /* START MENU */
 
-.hnp-navbar {
-    height: 100px;
-    width: 100%;
-    margin: 0 !important;
-}
-
-.hnp-navbar-logo>img {
-    width: 160px;
-    height: 65px;
-}
-
-.hnp-navbar-menu-contactButton {
-    /* width: 160px; */
-    background-color: #262626;
-    color: white;
-}
-
 .hnp-navbar-menu-telephone {
     width: 17px;
 }
@@ -60,7 +42,6 @@ html {
     color: #262626;
     font-weight: bold;
     text-transform: uppercase;
-    height: 100px;
     font-size: 14px;
 }
 
@@ -211,3 +192,32 @@ li.hnp-footer-li:hover:after {
 
 
 /* =================================================================================================== */
+
+
+/* REPONSIVE */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1 {
+        font-size: 26px;
+    }
+    /* BANNER */
+    label.hnp-banner-title {
+        font-size: 26px;
+    }
+    h3.hnp-slogan {
+        font-size: 14px
+    }
+    span.hnp-slogan {
+        font-size: 9px;
+        word-wrap: break-word;
+    }
+    /* NHA BEP */
+    img.d-block {
+        height: 200px;
+    }
+    /* FOOTER */
+    .hnp-footer-logo {
+        height: 60px;
+    }
+}
