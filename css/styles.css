@@ -16,8 +16,16 @@ html {
     height: 1px;
 }
 
+.hnp-devide-center {
+    height: 1px;
+}
+
 .hnp-padding-item {
     height: 250px;
+}
+
+.hnp-caption {
+    font-size: 12px;
 }
 
 
