@@ -11,8 +11,12 @@
 ```
 ## 3. Các script đã sử dụng
   ### Script Jquery (Jquery.min.js): dùng để hỗ trợ các hiệu ứng lướt
+  >https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
   ### Script smoothScroll (smoothScroll.js): dùng dể hỗ trợ di chuyển mượt mà các liên kết trong trang web
+  >https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
   ### Script popper (popper.min.js): Hỗ trợ hiển thị popover 
+  >https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
+  >
   Đoạn script sau: dùng để khai báo vào sử dụng các Popover
   ```
     <script>
